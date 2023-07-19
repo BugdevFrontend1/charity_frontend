@@ -1,38 +1,267 @@
-.App {
-  text-align: center;
+.text-22 {
+	font-size: 22px !important;
+	font-family: Inter !important;
+	font-style: normal !important;
+	font-weight: 800 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-link a:active,
+.header-link a:focus,
+.header-link a:hover {
+	color: #169eeb !important;
+}
+.mission-heading {
+	text-align: center !important;
+	font-size: 50px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+	max-width: 600px;
+}
+.partner-heading {
+	text-align: center !important;
+	font-size: 50px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+}
+.IconBox-heading {
+	text-align: center !important;
+	font-size: 36px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.IconBox-text {
+	text-align: center !important;
+	font-size: 18px !important;
+	font-family: Inter !important;
+	font-weight: 400 !important;
+}
+.social-icon {
+	font-size: 30px;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.copyright-text {
+	font-size: 18px !important;
+	font-family: Inter !important;
+
+	font-weight: 400 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer_heading {
+	font-size: 22px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+}
+.footer_text {
+	font-size: 16px !important;
+	font-family: Inter !important;
+	font-weight: 500 !important;
+}
+.icon-link {
+	font-size: 20px;
+	margin-right: 10px;
+}
+.slide_title {
+	color: #000;
+	font-size: 22px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.slide_text {
+	color: #000;
+	font-size: 14px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.slide_read-more {
+	color: #000;
+	font-size: 16px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.each-slide-effect p {
+	margin: 0;
+}
+
+.hero-banner_Heading {
+	color: #fff;
+	font-size: 50px !important;
+	font-family: Inter !important;
+	font-weight: 800 !important;
+}
+
+.hero-banner_bradcramb {
+	color: #fff;
+	font-size: 22px !important;
+	font-family: Inter !important;
+	font-weight: 800 !important;
+}
+.donation-form_small {
+	color: #858181;
+	font-size: 30px !important;
+	font-family: Inter !important;
+	font-weight: 500 !important;
+}
+.donation-form_heading {
+	font-size: 50px !important;
+	font-family: Inter !important;
+	font-weight: 700 !important;
+}
+.donation-form_text {
+	font-size: 20px !important;
+	font-family: Inter !important;
+	font-weight: 400 !important;
+}
+.query-form_heading {
+	font-size: 30px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+}
+.query-form_label {
+	font-size: 18px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+	margin-left: 10px !important;
+}
+
+.query-form_input {
+	border: 1px solid;
+	background: transparent;
+	font-size: 20px;
+	font-family: Inter;
+	padding: 0 15px;
+	height: 55px;
+	border-radius: 30px;
+}
+.donation-form_input {
+	border: 1px solid;
+	background: transparent;
+	font-size: 20px;
+	font-family: Inter;
+	padding: 0 15px;
+	height: 55px;
+	border-radius: 30px;
+	width: 100%;
+}
+.donation-form_heading {
+	font-size: 30px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+}
+.donation-form_radio-btn input {
+	width: 24px;
+}
+.donation-form_radio-btn label {
+	font-size: 18px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+}
+.donation-form_policy-text {
+	font-size: 14px !important;
+	font-family: Inter !important;
+	font-weight: 400 !important;
+}
+.MuiTabs-indicator.css-1aquho2-MuiTabs-indicator {
+	display: none !important;
+}
+.Tabs-list-btn .MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer {
+	justify-content: start;
+	flex-direction: column !important;
+}
+.active-tab {
+	background: #cbe6f8;
+}
+.active-tab .tabs-btn-text {
+	color: #169eeb;
+}
+
+.tabs-btn {
+	padding: 15px 20px;
+	cursor: pointer;
+}
+.tabs-btn:hover {
+	background: #cbe6f8;
+}
+.tabs-btn:hover .tabs-btn-text {
+	color: #169eeb;
+}
+
+.dashboard-header_search-input {
+	width: 100%;
+	font-family: 'inter';
+	font-size: 20px;
+	border: none;
+	outline: none;
+}
+
+.avatar-text {
+	font-size: 13px !important;
+	font-family: Inter !important;
+	font-weight: 300 !important;
+	color: #000 !important;
+	text-transform: capitalize !important;
+}
+.dashboard-sidebar_link-item {
+	font-size: 18px;
+	font-family: Inter;
+	font-weight: 500;
+	padding: 15px 30px;
+}
+.fade-color {
+	color: #5e5e5e;
+}
+.m-1 {
+	padding-left: 40px;
+}
+
+.m-1:hover {
+	background: rgba(46, 167, 255, 0.21);
+	border-right: 3px solid #2ea7ff;
+}
+.active-sidebar {
+	background: rgba(46, 167, 255, 0.21);
+	border-right: 3px solid #2ea7ff;
+}
+.donation-table_heading {
+	color: #fff !important;
+	font-size: 22px !important;
+	font-family: Inter !important;
+	font-weight: 600 !important;
+	background: #2ea7ff;
+}
+tr,
+td,
+th {
+	border: none !important;
+}
+
+.donation-table_text {
+	font-size: 20px !important;
+	font-family: Inter !important;
+	font-weight: 400 !important;
+}
+.bg-white {
+	background: #fff;
+}
+.color-blue {
+	color: #2ea7ff !important;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #B1B1B1 !important;
 }
